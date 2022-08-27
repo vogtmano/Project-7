@@ -66,9 +66,9 @@ class ViewController: UITableViewController {
             tableView.reloadData()
         }
     }
+
     
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         petitions.count
     }
     
